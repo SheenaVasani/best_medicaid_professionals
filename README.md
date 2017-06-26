@@ -2,7 +2,4 @@
 
 A web app helping low-income individuals on Medicaid easily access some of the best local healthcare professionals taking their insurance.
 
-Uses:
--HTML/CSS/Responsive design
--jQuery/Javascript
--AJAX/third-party APIs
+Used HTML/CSS/responsive design principles, jQuery/Javascript, and AJAX/third-party APIs
