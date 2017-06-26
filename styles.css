@@ -1,0 +1,189 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+}
+
+.about-container {
+  background: url('cof.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 790px;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2 {
+    color: white;
+    font-size: 18px;
+    margin-top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.bio {
+    color: white;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.5);
+    height: 150px;
+    border-radius: 10%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+.bio2 {
+    color: white;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.5);
+    height: 70px;
+    border-radius: 10%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    
+}
+
+
+.bio3 {
+    color: white;
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0.5);
+    height: 150px;
+    border-radius: 10%;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+/*.me {
+    height: 150px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: white;
+    margin-top: 40px;
+}*/
+
+.about {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.grey {
+    height: 3px;
+    background-color: #919191;
+    border: none;
+    width: 50px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+    margin-top: 100px;
+}
+
+.yellow {
+    border-top: 5px double #8c5232;
+    width: 250px;
+    border-bottom: none;
+    border-right: none;
+}
+
+.box {
+    float: left;
+    width: 42.5%;
+    margin-left: 5%;
+    margin-top: 80px;
+}
+
+.clear {
+    clear: both;
+}
+
+h4 {
+    text-align: center;
+    font-size: 24px;
+}
+
+p {
+    text-align: center;
+}
+
+.full-width {
+    width: 100%;
+}
+
+
+.icons {
+   text-align: center;
+}
+
+.icon {
+    margin: 30px 0;
+}
+
+
+
+ 
+.seeresults{
+  color: white;
+   text-decoration: none;
+    font-size: 32px;
+
+}
+.results {
+  color: grey;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+
+li {
+  display: inline-block;
+  font-size: 12px;
+  width: 100px;
+  font-weight: bold;
+  margin-top: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.jsresults {
+  text-align: left;
+  color: blue;
+
+}
