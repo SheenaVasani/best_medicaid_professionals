@@ -28,20 +28,9 @@ $(function() {
    
       $.each(results.data, function(i, value) {
 
-     
-      
-
          $(".results").append(
 
-
-
-          
           "<p>" +  "<b>" + "BIO:" + "</b>"  + "<br>" + "</br>" +  value["profile"]["bio"] + "</p>" + 
-          // "<td>" + value["profile"]["bio"] + "</td>" +
-          // "<td>" + value["profile"]["bio"] + "</td>" +
-
-
-
           "<p>" +  "<b>" + "LOCATION:" + "</b>" + "<br>" + "</br>" + value.practices[0].name + "</p>" + 
           "<p>" + value.practices[0].visit_address.city + "</p>" + 
           "<p>" + value.practices[0].visit_address.state +"</p>" + 
@@ -61,12 +50,6 @@ $(function() {
 });
     
    
-
- 
-// "</p>" + "<p>" + value.practices[0].phones[1].number + 
-          // "</p>" + "<p>" + value.practices[0].phones[1].type + 
-        /////wasn't working, broke the code
-
 
   
  
