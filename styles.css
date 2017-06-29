@@ -95,13 +95,13 @@ h2 {
 
 .bio3 {
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     background: rgba(0, 0, 0, 0.5);
     height: 150px;
     border-radius: 10%;
     text-align: center;
     width: 30%;
-    padding-top: 25px;
+    padding-top: 20px;
     padding-bottom: 5px;
     padding-left: 5px;
     padding-right: 5px;
@@ -113,17 +113,13 @@ h2 {
 }
 
 
-div {
-
-
-}
 form {
- /* margin-top: 30px;*/
+ padding-bottom: 10px;
 }
 
 button {
   margin-top: 10px;
-}
+   }
 
 /*.me {
     height: 150px;
@@ -176,7 +172,8 @@ h4 {
 }
 
 p {
-    text-align: center;
+    text-align: left;
+    padding-left: 20px;
 }
 
 .full-width {
@@ -204,7 +201,7 @@ p {
 .results {
   color: grey;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
 
 }
 
@@ -228,10 +225,11 @@ li {
 
 form {
   color: white;
+  padding-top: 30px;
 }
 /*iPhone 5*/
 
-@media (min-width:320px) and (max-width:568px) and (orientation:portrait){
+@media (min-width:320px) and (orientation:portrait){
 
 
  h1 {
@@ -261,10 +259,11 @@ form {
     border-radius: 10%;
     text-align: center;
     padding-top: 25px;
-    padding-bottom: 5px;
+    padding-bottom: 45px;
     padding-left: 5px;
     padding-right: 5px
     margin-top: 5px;    
+
     
 }
 
@@ -282,34 +281,42 @@ form {
     padding-right: 5px;
     margin-top: 20px;
     margin-bottom: 60px;
+
     
 }
 
 form {
   
   padding-left: 23px;
+  padding-top: 20px;
 }
 
 button {
-  padding-left: 50px;
-  color: white;
-  padding-bottom: 60px;
+ 
+  color: black;
+  background-color: grey;
+  width: 116%;
 
 }
+
+
 
 .results {
   position: absolute; 
   left: 0;
   right: 0;
+  padding-bottom: 90px;
 }
 
 
 .searchTerm {
-           width: 90px;
+  
+           width: 115%;
 }
 
 .searchSecond {
-  width: 110px;
+  
+  width: 115%;
 }
 
 form {
@@ -334,7 +341,7 @@ form {
 
 /*iPhone 6*/
 
-@media (min-width:375px) and (max-width:667px) and (orientation:portrait){
+@media (min-width:375px) and (orientation:portrait){
 
  h1 {
     color: white;
@@ -356,14 +363,14 @@ form {
 
 .bio3 {
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     background: rgba(0, 0, 0, 0.5);
     height: 150px;
     width: 310px;
     border-radius: 10%;
     text-align: center;
     padding-top: 25px;
-    padding-bottom: 5px;
+    padding-bottom: 40px;
     padding-left: 5px;
     padding-right: 5px;
     margin: 0 auto;
@@ -396,16 +403,21 @@ form {
 }
 
 form {
-  text-align: left;
+  text-align: center;
   padding-top: 2px;
   padding-left: 23px;
   }
 
 button {
-  color: white;
-  padding-left: 100px;
-
+  color: black;
+  background-color: grey;
+  padding-left: 10px;
+  width: 120%;
+  
+  
 }
+
+
 
 .results {
   position: absolute; 
@@ -415,17 +427,20 @@ button {
 
 
 .searchTerm {
-           width: 90px;
+        width: 115%;
+
 }
 
 .searchSecond {
-  width: 110px;
+  width: 111%;
+  padding-left: 10px;
 }
 
 form {
   
   color: white;
   margin-right: 70px;
+  padding-top: 5px;
 }
 .about-container {
   height: 750px;
@@ -446,8 +461,13 @@ form {
 
 /*iPad*/
 
-*@media (min-width:768px) and (max-width:1024px) and (orientation:portrait){
+@media (min-width:768px) and (orientation:portrait){
 
+
+.about-container {
+  height: 750px;
+ 
+}
 }
 
  
