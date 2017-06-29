@@ -20,6 +20,7 @@ $(function() {
    
     $.getJSON(url, params, showData);
 
+
     function showData(results) {
       console.log(results);
        console.log(results.data);
@@ -27,46 +28,29 @@ $(function() {
    
       $.each(results.data, function(i, value) {
 
-        
-        // console.log(value.practices[i]);
-        // console.log(value.practices[i]["name"]);
-        // console.log(value.practices[i]["visit_address"]["street"]);
-        //  console.log(value.practices[i]["website"]);
-        //  console.log(value["profile"]["bio"]);
+     
+      
 
-        // console.log(value.profile["bio"]);
-        // console.log(value.ratings[i]);
-        // console.log(value.practices[i].website);
-       // console.log(value.practices[i].phones[0]["number"]);
-       // console.log(value.practices[i].phones[0]["type"]);
-       // console.log(value.practices[i].phones[1]["number"]);
-       // console.log(value.practices[i].phones[1]["type"]);
+         $(".results").append(
 
 
-        //  function edgeCases () {
-        // if(value.profile["bio"] || value.practices[i]["name"] || value.practices[i]["visit_address"]["street"] || value.practices[i]["visit_address"]["city"] 
-        //      || value.practices[i]["visit_address"]["zip"] || value.practices[i].phones[i]["number"] || value.practices[i]["website"] === undefined) {
-        //     return ("---");
-        // }
 
-      // }
-  // $(".results").append("<p>" + value["profile"]["bio"] + "</p>" + value.practices[i].phones[0]["type"] + "</p>" + value.practices[i].phones[0]["number"]);
+          
+          "<p>" +  "<b>" + "BIO:" + "</b>"  + "<br>" + "</br>" +  value["profile"]["bio"] + "</p>" + 
+          // "<td>" + value["profile"]["bio"] + "</td>" +
+          // "<td>" + value["profile"]["bio"] + "</td>" +
 
 
-         $(".results").append("<p>" + value["profile"]["bio"] + 
-            "</p>" + "<p>" + value.practices[0].name + 
-          "</p>" + "<p>" + value.practices[0].visit_address.city + 
-          "</p>" + "<p>" + value.practices[0].visit_address.state +
-         "</p>" + "<p>" + value.practices[0].visit_address.zip + 
-         "</p>" + "<p>" + value.practices[0].phones[0].number + 
-         "</p>" + "<p>" + value.practices[0].phones[0].type +
-          // "</p>" + "<p>" + value.practices[0].phones[1].number + 
-          // "</p>" + "<p>" + value.practices[0].phones[1].type + 
-         "</p>" +"<p>" + value.practices[0].website
-         + "</p>");
+
+          "<p>" +  "<b>" + "LOCATION:" + "</b>" + "<br>" + "</br>" + value.practices[0].name + "</p>" + 
+          "<p>" + value.practices[0].visit_address.city + "</p>" + 
+          "<p>" + value.practices[0].visit_address.state +"</p>" + 
+          "<p>" + value.practices[0].visit_address.zip + "</p>" + 
+          "<p>" + "<b>" + "CONTACT DETAILS:" + "</b>" + "<br>" + "</br>" +  value.practices[0].phones[0].number + "</p>" + 
+          "<p>" + value.practices[0].phones[0].type + "</p>" + 
+          "<p>" + value.practices[0].website + "</p>" + "<hr>");
 
 
-//$(".results").append("<p>" + value["profile"]["bio"] + "</p>" + value.practices[i]["website"] + "</p>");
 
 
         
@@ -76,14 +60,14 @@ $(function() {
   });
 });
     
-// });
-  
+   
 
-
-//var queryTarget = $(event.currentTarget).find('.js-query');
-// var query = queryTarget.val();
  
-  
+// "</p>" + "<p>" + value.practices[0].phones[1].number + 
+          // "</p>" + "<p>" + value.practices[0].phones[1].type + 
+        /////wasn't working, broke the code
+
+
   
  
 
