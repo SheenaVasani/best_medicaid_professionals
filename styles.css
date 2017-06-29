@@ -202,6 +202,7 @@ p {
   color: grey;
     text-decoration: none;
     font-size: 14px;
+   
 
 }
 
@@ -305,7 +306,7 @@ button {
   position: absolute; 
   left: 0;
   right: 0;
-  padding-bottom: 90px;
+  
 }
 
 
