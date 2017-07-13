@@ -2,6 +2,8 @@
 $(function() {
    $("form").submit(function(event) {
      event.preventDefault();
+
+     $(".results").empty();
    
     var searchSecond = $(".searchSecond").val();
     var searchTerm = $(".searchTerm").val();
